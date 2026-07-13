@@ -28,7 +28,7 @@ This repo is a **ready-to-run Streamlit project** for the code-first dashboard, 
 └── .hyf/                            <- autograder, do not edit
 ```
 
-- **Metabase**: build it directly in the HYF-managed Metabase instance. There is nothing to scaffold here: put the dashboard link (or screenshots, if the public link is unavailable) in this `README.md`, under "My submission" below.
+- **Metabase**: build it directly in the HYF-managed Metabase instance. There is nothing to scaffold here. **Save your dashboard into the shared "Week 11 Submissions" collection** (not your personal collection) so your teacher can see and grade it, then put its link (plus screenshots or a PDF export) in this `README.md`, under "My submission" below.
 - **Streamlit**: `week11-streamlit/` is already wired up (same `run_query` caching pattern taught in "Building a Metrics Dashboard", Week 11 Chapter 5) with page setup done and the headline-KPIs panel stubbed as `raise NotImplementedError(...)`. Your job is the query and the three `.metric()` tiles, not the project scaffolding:
 
 ```bash
@@ -48,9 +48,11 @@ Fill in `week11-streamlit/metric_definitions.md`: a five-field definition (name,
 
 ## My submission
 
-<!-- TODO: paste your Metabase dashboard link, or add screenshots to this repo and reference them here. -->
+<!-- TODO: 1) Save your Metabase dashboard into the shared "Week 11 Submissions" collection.
+     2) Paste its link below, plus screenshots or a PDF export in this repo. -->
 
-TODO
+- Metabase dashboard (in the **Week 11 Submissions** collection): TODO
+- Screenshots / PDF export: TODO
 
 ## Check your score locally
 
