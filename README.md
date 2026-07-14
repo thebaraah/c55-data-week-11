@@ -60,6 +60,15 @@ Fill in `week11-streamlit/metric_definitions.md`: a five-field definition (name,
 
 Prefer to keep it in Azure? The assignment chapter documents an **optional advanced path**: upload the recording to the shared `student-submissions` blob container (teachers get read access, nothing is public) and share a read-only link. The container is shared, so name your file after yourself: `week-11/<your-name>.mp4` (e.g. `week-11/jane-doe.mp4`). See "Optional (advanced): host the recording on Azure Blob Storage" in the Week 11 Assignment chapter.
 
+## Packaging your submission for review
+
+Your pull request should review itself: a reviewer should be able to understand and check it without asking you anything. When you open the PR, GitHub loads a template (`.github/PULL_REQUEST_TEMPLATE.md`) into the description, fill in every section. Two things carry the most weight:
+
+- **Reproducible run instructions.** The Streamlit steps above must work from a clean clone against the reviewer's *own* Postgres: `uv sync`, copy `.env.example` to `.env`, set their own `POSTGRES_URL` (with `?sslmode=require`) and `DB_SCHEMA`, then `uv run streamlit run app.py`. Name every prerequisite, including your own `fct_trips` mart from Week 10. If a step only works on your machine, it is not reproducible.
+- **Proof for what a reviewer cannot run.** A reviewer cannot open your private `dev_<name>` schema or your Metabase Questions, so commit screenshots (or a PDF export) of your Metabase dashboard and your running Streamlit app. Screenshots are how you prove "it runs on my data."
+
+See "Package your pull request for review" in the Week 11 Assignment chapter for the full rationale.
+
 ## Check your score locally
 
 The autograder runs static checks (required files present, secrets hygiene, Streamlit code patterns, metric-definition coverage):
