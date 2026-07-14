@@ -60,6 +60,8 @@ Fill in `week11-streamlit/metric_definitions.md`: a five-field definition (name,
 
 Host the recording in Azure: upload the `.mp4` to the shared `student-submissions` blob container (teachers get read access, nothing is public) and put the read-only link in your PR. The container is shared, so name your file after yourself: `week-11/<your-name>.mp4` (e.g. `week-11/jane-doe.mp4`). See "Host the recording on Azure Blob Storage" in the Week 11 Assignment chapter for the `az` CLI and Portal steps.
 
+To upload by hand, [open the `hyfstoragedev` Storage browser in the Azure Portal](https://portal.azure.com/#@07a14c4e-d88c-42f7-83b3-13af7e57ff3d/resource/subscriptions/1120c89d-2a5f-4a15-a582-2ea34f0bb5c3/resourceGroups/rg-hyf-data/providers/Microsoft.Storage/storageAccounts/hyfstoragedev/storagebrowser) (sign in with your HYF account), then go to **Blob containers → student-submissions → Upload**.
+
 ## Packaging your submission for review
 
 Your pull request should review itself: a reviewer should be able to understand and check it without asking you anything. When you open the PR, GitHub loads a template (`.github/PULL_REQUEST_TEMPLATE.md`) into the description, fill in every section. Two things carry the most weight:
