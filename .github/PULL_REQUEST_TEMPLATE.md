@@ -21,6 +21,19 @@ uv run streamlit run app.py
 
 Prerequisite: your own `fct_trips` mart populated in your `dev_<name>` schema (from Week 10).
 
+> Data dependency: these run steps need **your own** Week 10 mart. A reviewer who does not have that data cannot rebuild your numbers, so the committed **screenshots / PDF export are the canonical evidence** of a working submission.
+
+## What reviewers should see (expected results)
+Fill in the numbers your dashboard and app actually show, so a reviewer can tell at a glance whether the result looks correct:
+- Total trips (`fct_trips` row count): <e.g. ~57k>
+- Busiest hour of day: <e.g. 18:00>
+- Top payment type by share: <e.g. credit card, ~70%>
+- Data freshness (latest trip date shown): <e.g. 2023-01-31>
+
+## Known limitations / out of scope
+- <e.g. auto-refresh not implemented; dashboard covers January 2023 only; one Metabase filter still hardcoded>
+- Write "none" if everything in the assignment is done and working.
+
 ## Extra completed
 - [ ] Metabase date filter on >=2 Questions
 - [ ] Streamlit auto-refresh
