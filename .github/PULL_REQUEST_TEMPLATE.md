@@ -1,7 +1,7 @@
 ## What I built
 - Metabase dashboard (Week 11 Submissions collection): <link>
 - Streamlit app: `week11-streamlit/app.py` (KPIs, hour-of-day trend, freshness, payment-type filter)
-- Presentation recording (private / unlisted): <link>
+- Presentation recording (private, hosted in the Azure `student-submissions` container): <link>
 
 ## How to review
 - Metabase: open the dashboard link above, or see the committed screenshots / PDF export.

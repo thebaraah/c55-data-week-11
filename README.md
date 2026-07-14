@@ -54,11 +54,11 @@ Fill in `week11-streamlit/metric_definitions.md`: a five-field definition (name,
 
 - Metabase dashboard (in the **Week 11 Submissions** collection): TODO
 - Screenshots / PDF export: TODO
-- Presentation recording (unlisted / shared-only, never public): TODO
+- Presentation recording (private, hosted in the Azure `student-submissions` container): TODO
 
-> ⚠️ **Keep the recording private.** It shows your screen and voice. Never make it public and never commit the `.mp4` (git history is forever). Use an unlisted Loom/YouTube or a shared-only Drive link, and check the frame for passwords, `.env` contents, or connection strings before uploading.
+> ⚠️ **Keep the recording private.** It shows your screen and voice. Never make it public and never commit the `.mp4` (git history is forever). Check the frame for passwords, `.env` contents, or connection strings before uploading.
 
-Prefer to keep it in Azure? The assignment chapter documents an **optional advanced path**: upload the recording to the shared `student-submissions` blob container (teachers get read access, nothing is public) and share a read-only link. The container is shared, so name your file after yourself: `week-11/<your-name>.mp4` (e.g. `week-11/jane-doe.mp4`). See "Optional (advanced): host the recording on Azure Blob Storage" in the Week 11 Assignment chapter.
+Host the recording in Azure: upload the `.mp4` to the shared `student-submissions` blob container (teachers get read access, nothing is public) and put the read-only link in your PR. The container is shared, so name your file after yourself: `week-11/<your-name>.mp4` (e.g. `week-11/jane-doe.mp4`). See "Host the recording on Azure Blob Storage" in the Week 11 Assignment chapter for the `az` CLI and Portal steps.
 
 ## Packaging your submission for review
 
